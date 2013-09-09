@@ -1,0 +1,66 @@
+# Startup engineer camp 1
+
+## Stage 1 
+
+### Version control with Github
+### Fast prototyping in Bootstrap (index.html)
+### Use jade template engine (jade, html2jade), layout (header, footer)
+
+	- [jade](http://jade-lang.com/)
+	- [html2jade](https://github.com/donpark/html2jade)
+
+	```
+	$ html2jade public/*.html -o views/
+	```
+
+### Extract project structure
+### Import JavaScript and CSS (Bootstrap, jQuery, custom)
+
+	- [bower](http://bower.io)
+	- [jQuery](http://jquery.com)
+	- [Bootstrap](http://getbootstrap.com/)
+
+## Stage 2 
+
+- bower
+- [express](http://expressjs.com/)
+- [grunt](http://gruntjs.com)
+
+## Stage 3
+
+- [sass](http://sass-lang.com/)
+- [grunt](http://gruntjs.com)
+- [underscore]
+- [Backbone](http://backbonejs.org/)
+
+sass -> grunt-sass
+backbone with API (sample)
+
+## Stage 4
+
+Implement CRUD (test case)
+
+npm - package.json
+
+Backbone Way with CRUD API 
+
+### Restful API
+
+- /books/id/collections/index
+- /books/id/collections/cover_image
+- /books/id/collections/chapter/1
+
+{
+ 		"chapter1" : "第1課：手機與瀏覽器就是HTML5",
+ 		"filename" : "title"
+}
+
+
+## Stage 5
+
+- forever
+- winston
+- github hook
+
+
+
