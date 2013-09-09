@@ -11,6 +11,8 @@ mkdir -p scripts
 mkdir -p utilities
 mkdir -p fixes
 
+touch public/.gitignore
+touch views/.gitignore
 touch sass/.gitignore
 touch schema/.gitignore
 touch scripts/.gitignore
