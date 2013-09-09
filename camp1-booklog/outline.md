@@ -21,6 +21,32 @@
 	```
 
 ### Extract project structure
+
+	```
+   .
+	 .bowerrc
+	 .editorconfig
+	 .gitignore
+	 Gruntfile.js
+	 LICENSE
+	 bower.json
+	 package.json
+   |-public
+   |---css
+   |---fonts
+   |---images
+   |---js
+   |---vendor
+   |-----bootstrap
+   |-----jquery
+   |-fixes
+   |-sass
+   |-schema
+   |-scripts
+   |-utilities
+   |-views
+	```
+
 ### Import JavaScript and CSS (Bootstrap, jQuery, custom)
 
 ## Stage 2 
