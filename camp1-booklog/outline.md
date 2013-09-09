@@ -3,7 +3,14 @@
 ## Stage 1 
 
 ### Version control with Github
+
+- 在 github 上建立一個 repository
+
 ### Fast prototyping in Bootstrap (index.html)
+
+	- [jQuery](http://jquery.com)
+	- [bootstrap](http://getbootstrap.com/)
+
 ### Use jade template engine (jade, html2jade), layout (header, footer)
 
 	- [jade](http://jade-lang.com/)
@@ -16,15 +23,12 @@
 ### Extract project structure
 ### Import JavaScript and CSS (Bootstrap, jQuery, custom)
 
-	- [bower](http://bower.io)
-	- [jQuery](http://jquery.com)
-	- [Bootstrap](http://getbootstrap.com/)
-
 ## Stage 2 
 
-- bower
+- [bower](http://bower.io)
 - [express](http://expressjs.com/)
 - [grunt](http://gruntjs.com)
+	- [grunt-contrib-jade](https://github.com/gruntjs/grunt-contrib-jade)
 
 ## Stage 3
 
