@@ -55,10 +55,14 @@ package.json
 - [express](http://expressjs.com/)
 - [grunt](http://gruntjs.com)
 	- [grunt-contrib-jade](https://github.com/gruntjs/grunt-contrib-jade)
+	- grunt-exec
 
 ## Stage 3
 
 - [sass](http://sass-lang.com/)
+	- grunt-contrib-sass
+	- grunt-contrib-watch
+	- grunt-contrib-uglify
 - [grunt](http://gruntjs.com)
 - [underscore](underscorejs.org)
 - [Backbone](http://backbonejs.org/)
