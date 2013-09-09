@@ -1,4 +1,4 @@
-# Startup engineer camp 1
+# Startup engineering camp 1
 
 ## Stage 1 
 
@@ -8,44 +8,44 @@
 
 ### Fast prototyping in Bootstrap (index.html)
 
-	- [jQuery](http://jquery.com)
-	- [bootstrap](http://getbootstrap.com/)
+- [jQuery](http://jquery.com)
+- [bootstrap](http://getbootstrap.com/)
 
 ### Use jade template engine (jade, html2jade), layout (header, footer)
 
-	- [jade](http://jade-lang.com/)
-	- [html2jade](https://github.com/donpark/html2jade)
+- [jade](http://jade-lang.com/)
+- [html2jade](https://github.com/donpark/html2jade)
 
 	```
-	$ html2jade public/*.html -o views/
+	$ html2jade *.html
 	```
 
 ### Extract project structure
 
-	```
-   .
-	 .bowerrc
-	 .editorconfig
-	 .gitignore
-	 Gruntfile.js
-	 LICENSE
-	 bower.json
-	 package.json
-   |-public
+```
+.
+.bowerrc
+.editorconfig
+.gitignore
+Gruntfile.js
+LICENSE
+bower.json
+package.json
+|-public
    |---css
    |---fonts
    |---images
    |---js
    |---vendor
-   |-----bootstrap
-   |-----jquery
-   |-fixes
-   |-sass
-   |-schema
-   |-scripts
-   |-utilities
-   |-views
-	```
+      |-----bootstrap
+      |-----jquery
+|-fixes
+|-sass
+|-schema
+|-scripts
+|-utilities
+|-views
+```
 
 ### Import JavaScript and CSS (Bootstrap, jQuery, custom)
 
@@ -60,7 +60,7 @@
 
 - [sass](http://sass-lang.com/)
 - [grunt](http://gruntjs.com)
-- [underscore]
+- [underscore](underscorejs.org)
 - [Backbone](http://backbonejs.org/)
 
 sass -> grunt-sass
@@ -80,10 +80,12 @@ Backbone Way with CRUD API
 - /books/id/collections/cover_image
 - /books/id/collections/chapter/1
 
+```
 {
- 		"chapter1" : "第1課：手機與瀏覽器就是HTML5",
- 		"filename" : "title"
+ 	"chapter1" : "第1課：手機與瀏覽器就是HTML5",
+ 	"filename" : "title"
 }
+```
 
 
 ## Stage 5
