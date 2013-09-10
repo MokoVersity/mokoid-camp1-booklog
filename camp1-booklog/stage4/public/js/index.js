@@ -48,7 +48,7 @@ app.NewBookIndexView = Backbone.View.extend({
         'click .btn-add': 'addNew',
     },
     initialize: function() {
-        this.model = new app.bookIndexView();
+        this.model = new app.BookIndex();
     },
     addNew: function() {
         this.model.save({
@@ -56,7 +56,7 @@ app.NewBookIndexView = Backbone.View.extend({
             title: this.$el.find('#title').val()
         }, {
             success: function(model, response, options) {
-                // app.bookIndexView.reload();
+                app.bookIndexView.reload();
             }
         });
     }

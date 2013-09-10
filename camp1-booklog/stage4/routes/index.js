@@ -17,7 +17,7 @@ exports.chapter = function(req, res){
 
     var markdown = '## 尚無資訊';
 
-    req.app.db.models.BookIndex.findOne({_id:req.params.id}, function(err, bookIndex) {
+    req.app.db.models.BookIndex.findOne({ _id: req.params.id }, function(err, bookIndex) {
 
         if (!err && bookIndex) {
             // Read file async
@@ -28,6 +28,10 @@ exports.chapter = function(req, res){
                 res.render('index', {
                     markdown: markdown
                 });
+            });
+        } else {
+            res.render('index', {
+                markdown: markdown
             });
         }
     });
