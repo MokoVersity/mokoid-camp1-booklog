@@ -198,11 +198,7 @@ if (!canvas.getContext) {
 }
 
 var dpr = 1, bsr = 1;
-<<<<<<< HEAD
-
-=======
-
->>>>>>> Added stage1-with-final-structure
+	
 if(!fallback){
     dpr = window.devicePixelRatio || 1,
     bsr = ctx.webkitBackingStorePixelRatio || ctx.mozBackingStorePixelRatio || ctx.msBackingStorePixelRatio || ctx.oBackingStorePixelRatio || ctx.backingStorePixelRatio || 1;
@@ -313,11 +309,7 @@ app.add_image = function (src, el) {
 app.run = function (o) {
 	var options = extend(settings, o),
 	    images = [], imageNodes = [], bgnodes = [];
-<<<<<<< HEAD
-
-=======
-
->>>>>>> Added stage1-with-final-structure
+	    
 	if(typeof(options.images) == "string"){
 	    imageNodes = selector(options.images);
 	}
@@ -346,11 +338,7 @@ app.run = function (o) {
 		holdercss.type = "text/css";
 		document.getElementsByTagName("head")[0].appendChild(holdercss);
 	}
-<<<<<<< HEAD
-
-=======
-
->>>>>>> Added stage1-with-final-structure
+	
 	if (!options.nocss) {
 	    if (holdercss.styleSheet) {
 		    holdercss.styleSheet.cssText += options.stylesheet;
@@ -383,34 +371,20 @@ app.run = function (o) {
 	}
 
 	for (l = images.length, i = 0; i < l; i++) {
-<<<<<<< HEAD
-
+	    
 		var attr_src = attr_data_src = src = null;
-
-=======
-
-		var attr_src = attr_data_src = src = null;
-
->>>>>>> Added stage1-with-final-structure
+		
 		try{
 		    attr_src = images[i].getAttribute("src");
 		    attr_datasrc = images[i].getAttribute("data-src");
 		}catch(e){}
-<<<<<<< HEAD
-
-=======
-
->>>>>>> Added stage1-with-final-structure
+				
 		if (attr_datasrc == null && !! attr_src && attr_src.indexOf(options.domain) >= 0) {
 			src = attr_src;
 		} else if ( !! attr_datasrc && attr_datasrc.indexOf(options.domain) >= 0) {
 			src = attr_datasrc;
 		}
-<<<<<<< HEAD
-
-=======
-
->>>>>>> Added stage1-with-final-structure
+		
 		if (src) {
 			var holder = parse_flags(src.substr(src.lastIndexOf(options.domain) + options.domain.length + 1)
 				.split("/"), options);
