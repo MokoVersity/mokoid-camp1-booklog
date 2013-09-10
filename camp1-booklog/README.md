@@ -43,6 +43,7 @@ git pull
 
 	```
 	$ html2jade *.html
+	$ html2jade *.html -o outFolder
 	```
 
 ### Extract project structure
@@ -77,6 +78,23 @@ package.json
 ## Stage 2 
 
 - [bower](http://bower.io)
+
+```
+$ bower install bootstrap
+```
+
+```
+$ bower init
+$ bower install bootstrap --save
+```
+
+**.bowerrc**
+```
+{
+    "directory": "public/vendor"
+}
+```
+
 - [express](http://expressjs.com/)
 - [grunt](http://gruntjs.com)
 	- [grunt-contrib-jade](https://github.com/gruntjs/grunt-contrib-jade)
@@ -88,11 +106,11 @@ package.json
 	- grunt-contrib-sass
 	- grunt-contrib-watch
 	- grunt-contrib-uglify
+
 - [grunt](http://gruntjs.com)
 - [underscore](underscorejs.org)
 - [Backbone](http://backbonejs.org/)
 
-sass -> grunt-sass
 backbone with API (sample)
 
 ## Stage 4
