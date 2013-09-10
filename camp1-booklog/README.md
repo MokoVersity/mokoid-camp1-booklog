@@ -1,4 +1,14 @@
-# Startup engineering camp 1
+# Startup Engineering Camp #1
+
+## 關於
+
+由 Moko365 所成立的創業課程訓練營。訓練課程著重實際的開發面，訴求如何把一個新創的想法，透過工程技術產出實際的成果，這就是 Startup Engineering 課程的目標。
+
+對創業者來說，比開設公司更重要的工作，就是做出想法。 典型的 Startup 課程，著重「創業」層面；Startup Engineering 則看重「實現想法」的工程面。
+
+Startup Engineering 源自史丹佛大學今年新開設的 Startup Engineering 課程。這門課程講究如何利用開源工具、外部資源與 HTML5 技術，將想法創作出來。透過 Startup Engineering 課程，導師們將分享如何以開源工具與 HTML5 技術等，將想法變成實際的成品。
+
+軟體專案的管理技術，因為 Open Innovation 的文化，也產生巨大的改變。Startup Engineering 也將介紹，如何採用新的管理方式來運作你的軟體專案 。我們也不定時邀請業界導師，和大家討論 Startup 的創業層面。
 
 ## Stage 1 
 
