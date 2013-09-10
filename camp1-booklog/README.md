@@ -32,6 +32,12 @@ git pull
 ### Use jade template engine (jade, html2jade), layout (header, footer)
 
 - [jade](http://jade-lang.com/)
+
+	```
+	$ jade templateFolderName
+	$ jade template.jade
+	```
+
 - [html2jade](https://github.com/donpark/html2jade)
 
 	```
