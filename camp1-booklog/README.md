@@ -105,14 +105,16 @@ $ bower uninstall bootstrap --save
 
 ```
 $ express
-$ npm i
+$ node app.js
 ```
 
 ### Use back-end package management
 
 - [npm](http://npmjs.org)
 
-package.json
+```
+$ npm i
+```
 
 ## Stage 3
 
