@@ -1,11 +1,9 @@
 body {
-    padding-top: 70px;
-    color: #333;
-    font-family: 'Open Sans',sans-serif;
-}
+  padding-top: 70px;
+  color: #333333;
+  font-family: "Open Sans", sans-serif; }
 
 #bookinfo {
-    border-bottom: solid 1px #ccc;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
+  border-bottom: solid 1px #cccccc;
+  margin-top: 40px;
+  margin-bottom: 20px; }
