@@ -36,6 +36,7 @@ git pull
 	```
 	$ jade templateFolderName
 	$ jade template.jade
+	$ jade views/*.jade -o public/
 	```
 
 - [html2jade](https://github.com/donpark/html2jade)
