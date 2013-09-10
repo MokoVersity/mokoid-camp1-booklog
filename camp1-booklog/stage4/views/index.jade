@@ -21,20 +21,18 @@ block body
         .col-md-9.wiki-page
           .wiki-content
 
-        #sidebar.col-md-3(role='navigation')
+        .col-md-3(role='navigation')
           .well.sidebar-nav
+            #newBookIndex.form-inline(role="form")
+                .form-group
+                  input.form-control.input-sm#filename(type="text", placeholder="Filename", value="test")
+                .form-group
+                  input.form-control.input-sm#title(type="text", placeholder="Title", value="test")
+
+                button.btn.btn-primary.btn-xs.btn-add#createNew Create new
             #bookinfo Index 書目
-            ul.nav
-              li.active
-                a(href='#') 第 1 課：手機與瀏覽器就是 HTML5
-              li
-                a(href='#') 第 2 課：從 Chrome 瀏覽器談起
-              li
-                a(href='#') 第 3 課：HTML5 App 的 Runtime 是瀏覽器
-              li
-                a(href='#') 第 4 課：All in JavaScript 的時代
-              li
-                a(href='#') 第 5 課：了解 HTML5+CSS+JavaScript
+            ul.nav#bookIndex
+
             #bookinfo Author 作者
             div
               div#author
@@ -43,3 +41,9 @@ block body
   script(id="tmpl-author", type="text/template")
     img.img-circle(src!='http://www.gravatar.com/avatar/<%= hash %>', width='48', height='48')
     |  <%= name %>
+
+  script(id="tmpl-bookindex", type="text/template")
+    li
+      a(href!='/chapter/<%= _id %>') <%= title %>
+
+

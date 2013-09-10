@@ -37,7 +37,22 @@ exports.chapter = function(req, res){
 exports.bookIndex = function(req, res){
     req.app.db.models.BookIndex.find({}, function(err, bookIndex) {
         if (err) res.send(err);
-        res.send(bookIndex);
+        res.send({
+            status: 'ok',
+            data: bookIndex
+        });
+    });
+};
+
+exports.updateBookIndex = function(req, res){
+    req.app.db.models.BookIndex.update({
+        _id: req.body.id
+    }, { filename: req.body.filename, title: req.body.title }, { upsert: false, multi: true }, function(err, numAffected) {
+        if (err) res.send(err);
+
+        res.send({
+            status: 'ok'
+        });
     });
 };
 

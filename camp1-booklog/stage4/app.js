@@ -43,13 +43,13 @@ if ('development' == app.get('env')) {
 
 app.get('/', routes.index);
 app.get('/contact', routes.contact);
+app.get('/chapter/:id', routes.chapter);
 
 // index
 app.get('/books/1/collections/index', routes.bookIndex);
 app.post('/books/1/collections/index', routes.createBookIndex);
-
-// chapter
-app.get('/books/1/collections/chapter/:id', routes.chapter);
+app.put('/books/1/collections/index', routes.updateBookIndex);
+app.delete('/books/1/collections/index', routes.deleteBookIndex);
 
 
 http.createServer(app).listen(app.get('port'), function(){
