@@ -136,10 +136,20 @@ $ npm i
 ### Create grunt task
 
 - [grunt](http://gruntjs.com)
-	- grunt-contrib-sass
-	- grunt-contrib-watch
-	- grunt-contrib-uglify
 	- grunt-exec
+	- grunt-contrib-sass
+	- grunt-contrib-uglify
+	- grunt-contrib-watch
+
+```
+$ npm install grunt --save-dev
+$ npm search grunt-contrib
+$ npm install grunt-exec --save-dev
+$ npm install grunt-contrib-sass --save-dev
+$ npm install grunt-contrib-uglify --save-dev
+$ npm install grunt-contrib-watch --save-dev
+```
+
 
 ### Use MVC, MVP and MVVM
 
