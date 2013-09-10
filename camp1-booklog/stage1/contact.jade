@@ -1,0 +1,50 @@
+!!! 5
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Contact Us - Booklog
+    link(rel='stylesheet', href='vendor/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet', href='vendor/bootstrap/dist/css/bootstrap-theme.min.css')
+    link(rel='stylesheet', href='css/style.css')
+    link(rel='stylesheet', href='css/wiki.css')
+  body
+    .navbar.navbar-fixed-top.navbar-inverse(role='navigation')
+      .container
+        .navbar-header
+          a.navbar-brand(href='#') Booklog
+        .collapse.navbar-collapse
+          ul.nav.navbar-nav
+            li
+              a(href='index.html') Home
+            li
+              a(href='about.html') About
+            li.active
+              a(href='contact.html') Contact
+        // /.nav-collapse
+      // /.container
+    // /.navbar
+    .container
+      .row
+        .col-md-6
+          .page-header
+            h1 Contact Us
+          form(role='form')
+            .form-group
+              label(for='exampleInputName') Name
+              input#exampleInputName.form-control(type='name', placeholder='Name')
+            .form-group
+              label(for='exampleInputEmail1') Email address
+              input#exampleInputEmail1.form-control(type='email', placeholder='Enter email')
+            .form-group
+              label(for='exampleMessage') Message
+              textarea#exampleMessage.form-control(name='message', cols='30', rows='10')
+            button.btn.btn-primary.pull-right(type='submit') Submit
+        // /.col-md12
+      // /.row
+      hr
+      footer
+        p © Booklog 2013
+    // /.container
+    script(src='vendor/jquery/jquery.min.js')
+    script(src='vendor/bootstrap/dist/js/bootstrap.min.js')
+    script(src='js/main.js')
