@@ -6,6 +6,14 @@
 
 - 在 github 上建立一個 repository
 
+```
+git clone
+git add files
+git commit
+git push origin master
+git pull
+```
+
 ### Fast prototyping in Bootstrap (index.html)
 
 - [jQuery](http://jquery.com)
