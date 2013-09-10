@@ -160,10 +160,7 @@ backbone with API (sample)
 
 ## Stage 4
 
-Implement CRUD (test case)
-Backbone Way with CRUD API 
-
-### Restful API
+### Define Restful API
 
 - /books/id/collections/index
 - /books/id/collections/cover_image
@@ -176,12 +173,16 @@ Backbone Way with CRUD API
 }
 ```
 
+### Implement CRUD
+### Backbone Way with CRUD API 
+
+
 
 ## Stage 5
 
-- forever
-- winston
-- github hook
-
+- [forever](https://github.com/nodejitsu/forever)
+- [winston](https://github.com/flatiron/winston)
+- Auto deploy with github hook
+- Deploy on heroku or AWS
 
 
