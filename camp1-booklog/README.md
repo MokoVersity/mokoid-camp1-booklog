@@ -77,6 +77,8 @@ package.json
 
 ## Stage 2 
 
+### Use front-end package management
+
 - [bower](http://bower.io)
 
 ```
@@ -86,6 +88,8 @@ $ bower install bootstrap
 ```
 $ bower init
 $ bower install bootstrap --save
+$ bower list
+$ bower uninstall bootstrap --save
 ```
 
 **.bowerrc**
@@ -95,19 +99,38 @@ $ bower install bootstrap --save
 }
 ```
 
+### Application Server: Node and Express
+
 - [express](http://expressjs.com/)
-- [grunt](http://gruntjs.com)
-	- [grunt-contrib-jade](https://github.com/gruntjs/grunt-contrib-jade)
-	- grunt-exec
+
+```
+$ express
+$ npm i
+```
+
+### Use back-end package management
+
+- [npm](http://npmjs.org)
+
+package.json
 
 ## Stage 3
+
+### Use stylesheet language - Sass
 
 - [sass](http://sass-lang.com/)
 	- grunt-contrib-sass
 	- grunt-contrib-watch
 	- grunt-contrib-uglify
 
+### Create grunt task
+
 - [grunt](http://gruntjs.com)
+	- [grunt-contrib-jade](https://github.com/gruntjs/grunt-contrib-jade)
+	- grunt-exec
+
+### Use MVC, MVP and MVVM
+
 - [underscore](underscorejs.org)
 - [Backbone](http://backbonejs.org/)
 
@@ -116,9 +139,6 @@ backbone with API (sample)
 ## Stage 4
 
 Implement CRUD (test case)
-
-npm - package.json
-
 Backbone Way with CRUD API 
 
 ### Restful API
