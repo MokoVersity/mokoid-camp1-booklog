@@ -122,14 +122,23 @@ $ npm i
 ### Use stylesheet language - Sass
 
 - [sass](http://sass-lang.com/)
-	- grunt-contrib-sass
-	- grunt-contrib-watch
-	- grunt-contrib-uglify
+
+	- convert sass/scss to css
+	```
+	$ sass sass/style.sass:public/css/style.css
+	```
+
+	- convert css to sass/scss
+	```
+	$ sass-convert -F css -T sass public/css/wiki.css sass/wiki.sass
+	```
 
 ### Create grunt task
 
 - [grunt](http://gruntjs.com)
-	- [grunt-contrib-jade](https://github.com/gruntjs/grunt-contrib-jade)
+	- grunt-contrib-sass
+	- grunt-contrib-watch
+	- grunt-contrib-uglify
 	- grunt-exec
 
 ### Use MVC, MVP and MVVM
