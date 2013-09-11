@@ -90,17 +90,17 @@ package.json
 
 - [bower](http://bower.io)
 
-```
-$ npm install -g bower
-$ bower install bootstrap
-```
+	```
+	$ npm install -g bower
+	$ bower install bootstrap
+	```
 
-```
-$ bower init
-$ bower install bootstrap --save
-$ bower list
-$ bower uninstall bootstrap --save
-```
+	```
+	$ bower init
+	$ bower install bootstrap --save
+	$ bower list
+	$ bower uninstall bootstrap --save
+	```
 
 **.bowerrc**
 ```
@@ -113,20 +113,20 @@ $ bower uninstall bootstrap --save
 
 - [express](http://expressjs.com/)
 
-```
-$ npm install -g express
-$ express
-$ node app.js
-```
+	```
+	$ npm install -g express
+	$ express
+	$ node app.js
+	```
 
 
 ### Use back-end package management
 
 - [npm](http://npmjs.org)
 
-```
-$ npm i
-```
+	```
+	$ npm i
+	```
 
 ## Stage 3
 
@@ -152,15 +152,15 @@ $ npm i
 	- grunt-contrib-uglify
 	- grunt-contrib-watch
 
-```
-$ npm install -g grunt
-$ npm install grunt --save-dev
-$ npm search grunt-contrib
-$ npm install grunt-exec --save-dev
-$ npm install grunt-contrib-sass --save-dev
-$ npm install grunt-contrib-uglify --save-dev
-$ npm install grunt-contrib-watch --save-dev
-```
+	```
+	$ npm install -g grunt
+	$ npm install grunt --save-dev
+	$ npm search grunt-contrib
+	$ npm install grunt-exec --save-dev
+	$ npm install grunt-contrib-sass --save-dev
+	$ npm install grunt-contrib-uglify --save-dev
+	$ npm install grunt-contrib-watch --save-dev
+	```
 
 ## Stage 4
 
@@ -189,21 +189,21 @@ $ npm install grunt-contrib-watch --save-dev
 - [underscore](underscorejs.org)
 - [Backbone](http://backbonejs.org/)
 
-```
-Create - POST - model.save
-Read   - GET - model.fetch
-Update - PUT - model.save
-Delete - DELETE - model.destroy
-```
+	```
+	Create - POST - model.save
+	Read   - GET - model.fetch
+	Update - PUT - model.save
+	Delete - DELETE - model.destroy
+	```
 
 ## Stage 5
 
 - [forever](https://github.com/nodejitsu/forever)
 
-```
-$ npm install -g forever-cli
-$ forever start -w app.js
-```
+	```
+	$ npm install -g forever-cli
+	$ forever start -w app.js
+	```
 
 - [winston](https://github.com/flatiron/winston)
 - Auto deploy with github hook
