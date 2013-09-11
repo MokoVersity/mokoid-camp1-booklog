@@ -191,6 +191,12 @@ Delete - DELETE - model.destroy
 ## Stage 5
 
 - [forever](https://github.com/nodejitsu/forever)
+
+```
+$ npm install -g forever-cli
+$ forever start -w app.js
+```
+
 - [winston](https://github.com/flatiron/winston)
 - Auto deploy with github hook
 	- [node-hook](https://github.com/hankwang/node-github-hook-deploy)
