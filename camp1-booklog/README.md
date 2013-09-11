@@ -10,6 +10,12 @@ Startup Engineering 源自史丹佛大學今年新開設的 Startup Engineering 
 
 軟體專案的管理技術，因為 Open Innovation 的文化，也產生巨大的改變。Startup Engineering 也將介紹，如何採用新的管理方式來運作你的軟體專案 。我們也不定時邀請業界導師，和大家討論 Startup 的創業層面。
 
+## Reference Course
+
+- [Startup Engineering on Cousera](https://class.coursera.org/startup-001/class)
+- [nodejs oveview on Mokoversity](http://www.mokoversity.com/course/html5/nodejs-overview)
+- [bootstrap & html5 overview on Mokoversity](http://www.mokoversity.com/course/html5/bootstrap-html5-intro)
+
 ## Stage 1 
 
 ### Version control with Github
