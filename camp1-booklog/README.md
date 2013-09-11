@@ -14,7 +14,7 @@ Startup Engineering 源自史丹佛大學今年新開設的 Startup Engineering 
 
 ### Version control with Github
 
-- 在 github 上建立一個 repository
+- 在 [github](https://github.com) 上建立一個 repository
 
 ```
 git clone
@@ -22,6 +22,7 @@ git add files
 git commit
 git push origin master
 git pull
+git checkout files
 ```
 
 ### Fast prototyping in Bootstrap (index.html)
@@ -82,6 +83,7 @@ package.json
 - [bower](http://bower.io)
 
 ```
+$ npm install -g bower
 $ bower install bootstrap
 ```
 
@@ -104,6 +106,7 @@ $ bower uninstall bootstrap --save
 - [express](http://expressjs.com/)
 
 ```
+$ npm install -g express
 $ express
 $ node app.js
 ```
@@ -142,6 +145,7 @@ $ npm i
 	- grunt-contrib-watch
 
 ```
+$ npm install -g grunt
 $ npm install grunt --save-dev
 $ npm search grunt-contrib
 $ npm install grunt-exec --save-dev
@@ -150,14 +154,6 @@ $ npm install grunt-contrib-uglify --save-dev
 $ npm install grunt-contrib-watch --save-dev
 ```
 
-
-### Use MVC, MVP and MVVM
-
-- [underscore](underscorejs.org)
-- [Backbone](http://backbonejs.org/)
-
-backbone with API (sample)
-
 ## Stage 4
 
 ### Define Restful API
@@ -165,24 +161,42 @@ backbone with API (sample)
 - /books/id/collections/index
 - /books/id/collections/cover_image
 - /books/id/collections/chapter/1
+- /books/id/collections/comments
+
+#### JSON Data
 
 ```
 {
  	"chapter1" : "第1課：手機與瀏覽器就是HTML5",
- 	"filename" : "title"
+ 	"filename" : "CS_LESSON_1"
 }
 ```
 
 ### Implement CRUD
+
+- [MongoDB](http://www.mongodb.org)
+
 ### Backbone Way with CRUD API 
 
+- [underscore](underscorejs.org)
+- [Backbone](http://backbonejs.org/)
 
+```
+Create - POST - model.save
+Read   - GET - model.fetch
+Update - PUT - model.save
+Delete - DELETE - model.destroy
+```
 
 ## Stage 5
 
 - [forever](https://github.com/nodejitsu/forever)
 - [winston](https://github.com/flatiron/winston)
 - Auto deploy with github hook
+- [node-hook](https://github.com/hankwang/node-github-hook-deploy)
 - Deploy on heroku or AWS
 
+## Additional
 
+- [editorconfig](http://editorconfig.org)
+- [sublime text](http://www.sublimetext.com)
