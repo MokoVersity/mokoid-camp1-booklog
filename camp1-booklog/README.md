@@ -193,7 +193,7 @@ Delete - DELETE - model.destroy
 - [forever](https://github.com/nodejitsu/forever)
 - [winston](https://github.com/flatiron/winston)
 - Auto deploy with github hook
-- [node-hook](https://github.com/hankwang/node-github-hook-deploy)
+	- [node-hook](https://github.com/hankwang/node-github-hook-deploy)
 - Deploy on heroku or AWS
 
 ## Additional
