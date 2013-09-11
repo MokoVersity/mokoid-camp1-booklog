@@ -15,6 +15,8 @@ Startup Engineering 源自史丹佛大學今年新開設的 Startup Engineering 
 - [Startup Engineering on Cousera](https://class.coursera.org/startup-001/class)
 - [nodejs oveview on Mokoversity](http://www.mokoversity.com/course/html5/nodejs-overview)
 - [bootstrap & html5 overview on Mokoversity](http://www.mokoversity.com/course/html5/bootstrap-html5-intro)
+- [jQuery overview on Mokoversity](http://www.mokoversity.com/course/html5/jquery-overview)
+
 
 ## Stage 1 
 
